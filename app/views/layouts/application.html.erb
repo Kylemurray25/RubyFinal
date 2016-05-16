@@ -28,12 +28,13 @@
 
 
   <div class="title">
-    CS 290 Blog App
+    Kyle's Project
   </div>
   <div class="container">
     <div class="menu">
       <% unless @popular_tags.empty? %>
         <ul class="nav-links">
+          
           <% @popular_tags.each do |tag| %>
             <li><%= link_to tag.title, posts_by_tag_path(id: tag.id)  %></li>
           <% end %>

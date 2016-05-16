@@ -1,19 +1,19 @@
 body {
-  background-color: #F2FFDE;
+  background-color: #669999;
   margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
-  color: #888;
+  color: #00ff00;
 }
 
 a, a:link {
   text-decoration: none;
   font-weight: bold;
-  color: #07323E;
+  color: #00ff00;
 }
 
 a:hover {
-  color: #888;
+  color: #ff66cc;
 }
 
 .navbar {
@@ -22,8 +22,7 @@ a:hover {
   height: 20px;
   padding: 10px;
   font-size: 14px;
-  background-color: #CCC; 
-}
+  background-color: #cc6600}
 
 .navbar .notifications {
   width: 80%;
@@ -82,20 +81,23 @@ ul.login-links {
 
 .menu ul.nav-links li {
   margin-bottom: 10px;
+  float: left;
+  padding: 8px;
+  
 }
 
 .menu ul.nav-links li:hover {
   border-right: 10px #FF8256 solid;
-  padding-right: 5px;
+  padding-right: 20px;
   transition: all 500ms ease;
 }
 
 .content {
   width: 73%;
   float: right;
-  background-color: #CCC;
-  border-radius: 10px;
-  padding: 20px;
+  background-color: #cc00cc;
+  border-radius: 20px;
+  padding: 50px;
 }/*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
